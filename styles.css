@@ -1,0 +1,84 @@
+.head-line{
+    font-size: 18px;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.button{
+    background-color: #FF5400;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    border-color: #FF5400;
+
+}
+
+.banner, .tour, .destination, .why-choose-us, .deals-and-discounts, .perfect-place, .newsletter{
+    padding: 80px 130px 80px 130px;
+}
+
+
+
+.banner-image{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+.tour{
+    display: flex;
+}
+
+.des-image1, .des-image2, .des-image3{
+    display: flex;
+}
+
+
+.perfect-place{
+    display: flex;
+}
+
+
+
+.hotels{
+    width: 100%;
+    height: 100%;
+    background: rgba(251, 181, 99, 0.05); 
+    border-radius: 16px; 
+    border: 1px rgba(251, 181, 99, 0.20) solid
+}
+
+.service{
+    width: 100%;
+    height: 100%;
+    background: rgba(41, 206, 246, 0.05); 
+    border-radius: 16px; 
+    border: 1px rgba(41, 206, 246, 0.20) solid;
+}
+
+.price{
+    width: 100%;
+    height: 100%;
+    background: rgba(233, 68, 68, 0.05); 
+    border-radius: 16px; 
+    border: 1px rgba(233, 68, 68, 0.20) solid;
+
+}
+
+.newsletter{
+    display: flex;
+    
+}
+
+.newsletter-text{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px #FF5400 solid;
+}
