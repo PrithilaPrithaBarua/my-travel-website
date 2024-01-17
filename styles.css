@@ -3,6 +3,10 @@
 *{
     font-family: 'Mulish', sans-serif;
 }
+
+.paragraph{
+    color: #5A5A5D ;
+}
 .head-line{
     font-size: 18px;
     text-align: center;
@@ -44,140 +48,191 @@ nav li{
 
 }
 
-.banner, .tour, .destination, .why-choose-us, .deals-and-discounts, .perfect-place, .newsletter{
-    padding: 80px 130px 80px 130px;
+
+
+.form1{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+    background: rgba(255, 255, 255, 0.30); 
+    border-radius: 8px; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 24px; 
+    display: inline-flex;
+    position:absolute;
+    top:450px;
+    left: 450px;
 }
 
-
+.placeholder{
+    padding: 20px;
+}
 
 .banner-image{
     width: 100%;
     height: 100%;
     border-radius: 16px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    position: relative;
    
 }
 
-
-.tour{
-    display: flex;
-    flex-wrap: wrap;
+.center-text{
+    position: absolute;
+    text-align: center;
+    top: 270px;
+    left: 500px;
+    margin: 0 auto;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
 }
 
-.tour-text{
-    width: 60%;
+
+/* General Styling*/
+
+img{
+    width: 100%;
     height: 100%;
-    margin-right: 120px;
 }
 
-.tour-image{
-    width: 30%;
-    height: 100%;
+.headline{
+    text-align: center;
+    padding: 0 40px 0 40px;
 }
-
-.des-image1, .des-image2, .des-image3{
-    display: flex;
-    flex-wrap: wrap;
+.Images{
     padding: 20px;
-    
-    
+}
+
+/*Second Section Styling*/
+
+.second-section{
+    display: flex;
+    padding: 40px;
+    margin-left: 50px;
+    height: 400px;
+}
+.second-text{
+    width: 60%;
+}
+.second-image{
+    width: 40%;
+}
+
+/*Third Section Styling*/
+.section{
+    height: 400px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+    padding: 0 40px 0 40px;
 }
 
 .image1{
-    width: 45%;
-    padding: 20px;
-
+    width:50%;
 }
 
-.image2 {
-    width: 45%;
-    padding: 20px;
-
+.image2{
+    width: 50%;
 }
 
 .image3{
-width: 25%;
-padding: 20px;
+    width:30%;
+
 }
 
 .image4{
-    width: 35%;
-    padding: 20px;
+    width: 40%;
+    
 }
 
 .image5{
-    width: 25%;
-    padding: 20px;
+    width:30%;
+    
 }
 
 .image6{
-    width: 35%;
-    padding: 20px;
+    width: 60%;
 }
 
 .image7{
-    width: 55%;
-    padding: 20px;
+    width: 40%;
 }
 
-.perfect-place{
+/*Fourth Section Styling*/
+.fourth-section{
+    padding: 40px;
+    margin-left: 50px;
+    height: 400px;
+}
+.text-1{
     display: flex;
-}
-
-
-
-.container{
-    display: flex;
-    flex-wrap: wrap;
+    gap: 20px;
     padding: 20px;
+
 }
-
-
-
-
-
-.hotels-services{
-    display: flex;
-    flex-wrap: wrap;
-    padding: 20px;
-}
-
-.hotels{
-    width: 45%;
-     height: 100%;
-     background: rgba(251, 181, 99, 0.05); 
-     border-radius: 16px; 
-     border: 1px rgba(251, 181, 99, 0.20) solid; 
-     padding: 20px;
-     margin-right: 10px ;
- }
-
- .services{
-     width: 45%;
-     height: 100%;
-     background: rgba(41, 206, 246, 0.05); 
-     border-radius: 16px; 
-     border: 1px rgba(41, 206, 246, 0.20) solid;
-     padding: 20px;
-     margin-left: 10px ;
- }
-
-
-
-
-
-.price{
-    width: 50%;
-    height: 100%;
-    background: rgba(233, 68, 68, 0.05); 
+.hotels, .text-2{
+    background: rgba(251, 181, 99, 0.05); 
     border-radius: 16px; 
-    border: 1px rgba(233, 68, 68, 0.20) solid;
+    border: 1px rgba(251, 181, 99, 0.20) solid;
+   
+}
+
+.World-Class-Service{
+    background: rgba(41, 206, 246, 0.05); 
+    border-radius: 16px; 
+    border: 1px rgba(41, 206, 246, 0.20) solid;
+    
+}
+
+.text-2{
+    
     text-align: center;
-    margin: 0 auto;
+    padding: 30px;
+    
+}
+
+/*........................*/
+
+/*sixth section styling*/
+.sixth-section{
+    display: flex;
+    padding: 40px;
+    margin-left: 50px;
+    margin-top: 50px;
+   height: 400px;
+}
+
+.place-text{
+    width: 60%;
 
 }
+
+.perfect-image{
+width: 40%;
+}
+
+/*seventh section styling*/
+.Seventh-Section{
+    display: flex;
+    padding: 40px;
+    margin-left: 50px;
+    margin-top: 50px;
+   height: 400px;
+   gap: 50px;
+
+}
+
+.newsletter-text{
+    width: 40%;
+}
+
+.newsletter-image{
+    width: 60%;
+}
+
+
 
 
 
@@ -196,17 +251,121 @@ padding: 20px;
 }
 
 
+.footer{
+    width: 100%;
+    height: 100%;
 
+    background: rgba(19, 19, 24, 0.05);
+}
 
+.footer-text{
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px;
+}
 
-@media screen and (max-width: 576px){
-    banner{
-        padding:5px;
-    }
+.horizontal-line{
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10) ;
+    margin-top: 2px;
+    width: 100%; 
 }
 
 
 
+/*Responsive for 600px*/
+
+
+
+@media screen and (max-width: 600px){
+    .second-section{
+        flex-direction: column;
+        height: auto;
+        gap: 50px;
+    }
+    
+    .second-text, .second-image{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .section{
+        flex-direction: column;
+        height: auto;
+    }
+    .square-collage{
+        grid-template-columns: 1fr;
+    }
+
+    .image1, .image2, .image3, .image4, .image5, .image6, .image7{
+        width: 100%;
+        height: 200px;
+    }
+
+    .second-section{
+        flex-direction: column;
+        height: auto;
+    }
+
+    .second-image, .second-text{
+        width: 100%;
+        height: 200px;
+    }
+
+    .text-1{
+        flex-direction: column;
+        height: auto;
+    }
+    
+    .text-1{
+        width: 100%;
+        height: 300px;
+    }
+
+    .text-2{
+        flex-direction: column;
+        height: auto;
+    }
+    .text-2{
+        width: 100%;
+        height: 100px;
+    
+    }
+    .sixth-section{
+        margin-top: 200px;
+        gap: 50px;
+    }
+
+   .sixth-section{
+    flex-direction: column;
+    height: auto;
+   }
+
+   .place-text{
+    width: 100%;
+    height: 100%;
+   }
+   .perfect-image{
+    width: 100%;
+    height: 100%;
+   }
+
+   .Seventh-Section{
+    flex-direction: column;
+    height: auto;
+
+   }
+
+   .newsletter-text{
+    width: 100%;
+    height: 100%;
+   }
+
+   .newsletter-image{
+    width: 100%;
+    height: 100%;
+   }
+
+}
 
 
 
