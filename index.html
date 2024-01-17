@@ -9,39 +9,47 @@
 </head>
 <body class="container">
 
-    <header class="header">
-        <nav>
-            <div class="nav"> 
-                <h3>Travel Around The World</h3>
-                <ul>
-                    <li><a href=""><span class="home">Home</span></a></li>
-                    <li><a href="">Package</a></li>
-                    <li><a href="">Testimonial</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-
-    </header>
+    <div class="nav">
+        <input type="checkbox" id="nav-check">
+        <div class="nav-header">
+          <div class="nav-title">
+            Travel Around The World
+          </div>
+        </div>
+        <div class="nav-btn">
+          <label for="nav-check">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
+        </div>
+        
+        <div class="nav-links">
+          <a href="" target=""><span class="home">Home</span></a>
+          <a href="" target="">Package</a>
+          <a href="" target="">Testimonial</a>
+          <a href="" target="">Blog</a>
+          <a href="" target="">Contact</a>
+        </div>
+      </div>
     
 <!--First section html-->
     <div class="banner">
-        <img class="banner-image" src=" Images/Group 13 (1) (1).png" alt="">
-        <div class="center-text">
+        <div class="banner-text">
             <h1>Explore Your Travel</h1>
-            <p >Hurry up! Book your tickets for your dream destination!</p>
+            <p class="paragraph">If you are looking for a holiday package, you are at the best place! Select your desirable destination and date to book your dream holiday.</p>
+            <div class="form">
+                <form>
+                    <input class="input" type="text" id="place" name="place" placeholder="Where go"> 
+                    <input class="input" type="Date" id="place" name="place" placeholder="Date"> 
+                    <input class="input" type="text" id="place" name="place" placeholder="Type"> 
+                    <button class="button">Find Now</button>
+        
+                </form>
+            </div>
+        
         </div>
-        <div class="form1">
-            <form class="placeholder">
-                <input type="text" id="name" name="name" placeholder="Where go">
-                <input type="text" id="name" name="name" placeholder="when">
-                <input type="text" id="name" name="name" placeholder="Enter Type">
-                
-                <input class ="button" type="submit" value="Find Now">
-            </form>
-        </div>
-
+    
     </div>
 <!--Second Section Html-->
 <div class="second-section">
@@ -60,6 +68,7 @@
 <!--Third Section Html-->
 
 <div class="third-section"> 
+
     <div class="headline">
         <h2>Choose your Destination</h2>
         <p class="paragraph">We are offering holiday package in the following destinations. Check them out today!</p>
@@ -134,16 +143,21 @@
     <!--Seventh Section-->
     <div class="Seventh-Section">
         <div class="newsletter-text">
+            
             <h3>Newsletter</h3>
-            <p class="paragraph">To get your daily dose of our travel news, provide your name and email address below:</p>
-            <form>
-                <input type="text" id="name" name="name" placeholder="Enter Your Name">
-                <input type="email" id="email" name="email" placeholder="Enter Your Email Address"> 
-                <input type="submit" value="Submit">
+            <h5 class="paragraph">To get your daily dose of our travel news, provide your name and email address below:</h5>
+            <form  class="form2">
+                <input class="in1" type="text" id="name" name="name" placeholder="Enter Your Name">
+                <input class="in2" type="email" id="email" name="email" placeholder="Enter Your Email Address"> 
+                <button class="in3"> Subscribe</button>
             </form>
         </div>
         <div class="newsletter-image">
             <img src="Images/Rectangle 8 (1).png" alt="">
+            <div class="save">
+                <h6>Travel.com</h6>
+                <h3>Save up to 70%</h3>
+            </div>
 
         </div>
     </div>
